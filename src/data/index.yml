@@ -2,7 +2,7 @@ projects:
   - slug: philadelphia-zoo
     color: forestgreen
     title: The Philadelphia Zoo
-    description: Custom WordPress theme built with component page builder for future flexibility of their new design system.
+    description: Custom WordPress theme built with a component page builder for future flexibility of their new design system.
     tags:
       - WordPress
       - Timber
@@ -16,7 +16,7 @@ projects:
   - slug: blue-origin
     color: blue
     title: Blue Origin
-    description: What began as a CMS re-platform quickly turned into a full scale implementation of brand new front-end design system for their entire site.
+    description: What began as a CMS re-platform quickly turned into a full scale implementation of a brand new front-end design system for the entire site.
     tags:
       - Statamic
       - Vue.js
