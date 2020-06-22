@@ -77,7 +77,11 @@ export default {
 <style lang="scss">
 .projects {
   padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
+
+  @include screen(md) {
+    padding-bottom: 6rem;
+  }
 }
 
 .projects__heading {

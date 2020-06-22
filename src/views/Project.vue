@@ -125,14 +125,13 @@ export default {
   position: relative;
   z-index: 1;
   display: inline-block;
-  padding: 1rem 1rem 1rem 1rem;
   margin-top: 2rem;
-  font-size: 2.5rem;
-  background-color: $colorBackground;
+  font-size: 2.4rem;
   hyphens: auto;
 
   @include screen(sm) {
     padding: 1rem 1rem 1rem 1rem;
+    background-color: $colorBackground;
     font-size: 4rem;
     hyphens: none;
   }
@@ -174,7 +173,7 @@ export default {
   position: relative;
   width: 100%;
   padding-top: 56.25%;
-  margin-top: -2rem;
+  margin-top: 1.5rem;
 
   @include screen(md) {
     position: fixed;
