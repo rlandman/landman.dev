@@ -1,0 +1,95 @@
+projects:
+  - slug: philadelphia-zoo
+    color: forestgreen
+    title: The Philadelphia Zoo
+    description: Custom WordPress theme built with component page builder for future flexibility of their new design system.
+    tags:
+      - WordPress
+      - Timber
+      - Vue.js
+      - HTML
+      - Sass
+    imageUrl: /images/philadelphia-zoo.jpg
+    url: https://philadelphiazoo.org/
+    # emoji: 🦏
+    emoji: 🦁
+  - slug: blue-origin
+    color: blue
+    title: Blue Origin
+    description: What began as a CMS re-platform quickly turned into a full scale implementation of brand new front-end design system for their entire site.
+    tags:
+      - Statamic
+      - Vue.js
+      - HTML
+      - Sass
+    imageUrl: /images/blue-origin.jpg
+    url: https://blueorigin.com/
+    emoji: 🚀
+  - slug: jefferson-university
+    color: midnightblue
+    title: Jefferson University
+    description: Custom SPA showcasing the disciplines offered at the newly rebranded Jefferson University. Designed for user browsing in any direction (or via standard navigation if preferred).
+    tags:
+      - Vue.js
+      - Vue Router
+      - HTML
+      - Sass
+    imageUrl: /images/jefferson.jpg
+    url: https://discover.jefferson.edu/
+  - slug: alberta-engineering
+    color: darkslategray
+    title: Alberta Engineering
+    description: To set the Engineering department apart from the rest of The University of Alberta, this SPA highlights important achievments of students over the years, brought to life via SVG animations.
+    tags:
+      - Vue.js
+      - Vue Router
+      - GSAP
+      - HTML
+      - Sass
+    imageUrl: /images/alberta.jpg
+    url: https://engineeringatalberta.ca/
+    emoji: 📐
+  - slug: university-of-dayton
+    color: darkturquoise
+    title: University of Dayton
+    description: Landing page for families of prospective students, with an experience guided by subtle animation.
+    tags:
+      - Vue.js
+      - HTML
+      - Sass
+    imageUrl: /images/dayton.jpg
+    url: https://udayton.edu/for-families/
+  - slug: university-of-pennsylvania
+    color: red
+    title: University of Pennsylvania
+    description: Headless microsite developed for the UPenn Athletics department to fundraise. WordPress back-end with a Vue SPA front-end.
+    tags:
+      - WordPress
+      - Vue.js
+      - HTML
+      - Sass
+    imageUrl: /images/u-penn.jpg
+    url: https://gameonward.pennathletics.com/
+    emoji: ⚾
+  - slug: rowan-university
+    color: orange
+    title: Rowan University
+    description: Component library for the Admissions department at Rowan University, designed set them apart from the rest of their organzation.
+    tags:
+      - Twig
+      - Vue.js
+      - HTML
+      - Sass
+    imageUrl: /images/rowan.jpg
+    url: https://admissions.rowan.edu/
+  - slug: rider-university
+    color: firebrick
+    title: Rider University
+    description: Extensive component library to leverage across all Rider University web properties, including their main .EDU
+    tags:
+      - Twig
+      - Vue.js
+      - HTML
+      - Sass
+    imageUrl: /images/rider.jpg
+    url: https://ride-192-01w.160over90.io/full-width/

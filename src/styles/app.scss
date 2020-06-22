@@ -1,0 +1,37 @@
+// Variables
+$colorPrimary: darkorchid;
+$colorBackground: ghostwhite;
+
+// Cursor
+$cursorDefault: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="#{$colorPrimary}" viewBox="0 0 12 12" width="12" height="12"><rect x="0" y="0" width="12" height="12"></rect></svg>'), auto;
+
+$cursorHover: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="fuchsia" viewBox="0 0 14 14" width="14" height="14"><rect x="0" y="0" width="14" height="14"></rect></svg>'), auto;
+
+// Breakpoints
+@mixin screen($size) {
+  @if $size == sm {
+    @media (min-width: 640px) {
+      @content;
+    }
+  }
+  @if $size == md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @if $size == lg {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+  @if $size == xl {
+    @media (min-width: 1280px) {
+      @content;
+    }
+  }
+}
+
+@mixin focusDefault {
+  outline: none;
+  box-shadow: 0 0 0 3px $colorPrimary;
+}

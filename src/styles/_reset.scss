@@ -1,0 +1,96 @@
+// Layout
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  // Media
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  // Typography
+  ol,
+  ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: block;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: currentColor;
+    letter-spacing: inherit;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: currentColor;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+    cursor: $cursorHover;
+  }
+
+  button {
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: $cursorHover;
+    background-color: transparent;
+    border: 0;
+    appearance: none;
+  }
+
+  blockquote {
+    padding: 0;
+    margin: 0;
+  }
+
+  hr {
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  cite,
+  address {
+    font-style: normal;
+  }
+
+  // stylelint-disable declaration-no-important
+  [v-cloak] {
+    display: none !important;
+  }

@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- eslint-disable -->
+    <AppIntro
+      firstName="ryan"
+      lastName="Landman"
+      bodyText="Hello. I'm a Front End Developer with over 10 years of experience developing accessible user interfaces."
+    />
+    <!-- eslint-enable -->
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import AppIntro from '@/components/AppIntro.vue';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    AppIntro,
   },
 };
 </script>
