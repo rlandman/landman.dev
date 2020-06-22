@@ -108,7 +108,11 @@ export default {
 
 <style lang="scss">
 .project {
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
+
+  @include screen(md) {
+    padding-bottom: 6rem;
+  }
 }
 
 .project__inner {
@@ -146,13 +150,15 @@ export default {
 
 .project__tags {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 1.1rem;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .project__tag {
   display: block;
   padding: 0.2rem 0.3rem;
+  margin-top: 0.4rem;
   background: rgba(lightslategray, 0.65);
   border-radius: 2px;
   font-size: 0.7rem;
