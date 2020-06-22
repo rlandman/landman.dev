@@ -76,14 +76,14 @@ export default {
 .app-card {
   position: relative;
   display: flex;
-  padding-right: 1rem;
-  padding-left: 1rem;
   margin-top: 2rem;
   flex-flow: column-reverse;
   justify-content: flex-start;
 
   @include screen(sm) {
     width: 50%;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
@@ -126,19 +126,23 @@ export default {
   display: flex;
   color: $colorPrimary;
   font-size: 1rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem;
   background-color: white;
   flex-grow: 1;
   text-align: left;
   align-items: center;
 
+  @include screen(sm) {
+    padding: 1.5rem 2rem;
+  }
+
   &::after {
     position: absolute;
     top: 0;
-    left: 1rem;
+    left: 0;
     z-index: 1;
     display: block;
-    width: calc(100% - 2rem);
+    width: 100%;
     height: 100%;
     background-color: transparent;
     box-shadow:
@@ -146,6 +150,11 @@ export default {
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
     transition: box-shadow 100ms linear;
     content: "";
+
+    @include screen(sm) {
+      left: 1rem;
+      width: calc(100% - 2rem);
+    }
   }
 
   &:hover::after {

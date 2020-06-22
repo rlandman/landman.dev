@@ -67,12 +67,13 @@ body {
   display: flex;
   width: 100%;
   height: 4rem;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   font-size: 0.8rem;
   justify-content: flex-start;
   align-items: center;
 
   @include screen(sm) {
+    padding: 0 2rem;
     font-size: 1rem;
   }
 }

@@ -153,8 +153,11 @@ export default {
 }
 
 .app-intro__inner {
-  padding: 0 2rem 4rem;
+  padding: 0 1.5rem 4rem;
 
+  @include screen(sm) {
+    padding: 0 2rem 4rem;
+  }
   @include screen(md) {
     max-width: 70%;
     padding: 0 0 4rem;

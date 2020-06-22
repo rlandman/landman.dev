@@ -81,9 +81,13 @@ export default {
 }
 
 .projects__heading {
-  font-size: 3rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  font-size: 2.5rem;
+
+  @include screen(sm) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+  }
 }
 
 .projects__list {

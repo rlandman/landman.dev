@@ -125,9 +125,12 @@ export default {
   margin-top: 2rem;
   font-size: 2.5rem;
   background-color: $colorBackground;
+  hyphens: auto;
 
   @include screen(sm) {
+    padding: 1rem 1rem 1rem 1rem;
     font-size: 4rem;
+    hyphens: none;
   }
 
   @include screen(md) {
