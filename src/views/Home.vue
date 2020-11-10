@@ -4,7 +4,7 @@
     <AppIntro
       firstName="ryan"
       lastName="Landman"
-      bodyText="Hello. I'm a Front End Developer with over 10 years of experience developing accessible user interfaces."
+      bodyText="Hello. I'm a Front End Developer with over 12 years of experience building accessible User Interfaces, with a passion for scalable systems."
     />
     <!-- eslint-enable -->
   </div>
